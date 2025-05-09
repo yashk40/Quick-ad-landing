@@ -104,14 +104,7 @@ export default function CTASection() {
             >
               Start Free Trial
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-white text-white hover:bg-white/10 transition-all duration-300 text-base backdrop-blur-sm"
-            >
-              Schedule a Demo
-              <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 h-11 rounded-md px-8 bg-white text-purple-700 hover:bg-purple-50 transition-all duration-300 text-base shadow-lg hover:shadow-xl">Schedule a Demo <ArrowRight className="ml-2 h-4 w-4" /></button>
           </motion.div>
         </motion.div>
       </div>
